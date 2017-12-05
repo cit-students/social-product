@@ -22,3 +22,6 @@
  - Nhi
  - Bé
  - Nguyên
+
+## Planning file
+https://docs.google.com/spreadsheets/d/1vet_uhoF8z8WLs6MzOo-vGgnNpeuYdTeXFyTlfC9VH8/edit?usp=sharing
