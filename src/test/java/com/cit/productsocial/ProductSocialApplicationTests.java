@@ -11,6 +11,6 @@ public class ProductSocialApplicationTests {
 
 	@Test
 	public void contextLoads() {
-	}
 
+	}
 }
