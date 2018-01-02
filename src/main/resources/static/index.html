@@ -1,1 +1,161 @@
-Test html 124
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>User Login </title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet"
+          type="text/css"/>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/css/components.min.css" rel="stylesheet" id="style_components" type="text/css"/>
+    <link href="assets/css/login.min.css" rel="stylesheet" type="text/css"/>
+
+
+</head>
+<!-- END HEAD -->
+<body class=" login">
+<!-- BEGIN LOGO -->
+<!--<div class="logo">-->
+<!--<a href="index1.html">-->
+<!--<img src="assets/img/logo-big.png" alt=""/> </a>-->
+<!--</div>-->
+<!-- END LOGO -->
+<!-- BEGIN LOGIN -->
+<div class="content">
+
+    <form class="login-form" action="#">
+        <h3 class="form-title font-green">Sign In</h3>
+        <div class="alert alert-danger display-hide">
+            <button class="close" data-close="alert"></button>
+            <span> Enter any username and password. </span>
+        </div>
+        <div class="form-group">
+            <label class="control-label visible-ie8 visible-ie9">Username</label>
+            <input class="form-control form-control-solid placeholder-no-fix" type="text" autocomplete="off"
+                   placeholder="Username" name="username"/></div>
+        <div class="form-group">
+            <label class="control-label visible-ie8 visible-ie9">Password</label>
+            <input class="form-control form-control-solid placeholder-no-fix" type="password" autocomplete="off"
+                   placeholder="Password" name="password"/></div>
+        <div class="form-actions">
+            <a ui-sref="product">
+                <button class="btn green uppercase"> Login</button>
+            </a>
+            <label class="rememberme check mt-checkbox mt-checkbox-outline">
+                <input type="checkbox" name="remember" value="1"/>Remember
+                <span></span>
+            </label>
+            <a href="javascript:;" id="forget-password" class="forget-password">Forgot Password?</a>
+        </div>
+        <div class="login-options">
+            <h4>Or login with</h4>
+            <ul class="social-icons">
+                <li>
+                    <a class="social-icon-color facebook" data-original-title="facebook" href="javascript:;"></a>
+                </li>
+
+                <li>
+                    <a class="social-icon-color googleplus" data-original-title="Goole Plus"
+                       ng-click="onGoogleLogin()"></a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="create-account">
+            <p>
+                <a href="javascript:;" id="register-btn" class="uppercase">Create an account</a>
+            </p>
+        </div>
+
+
+    </form>
+    <!-- END LOGIN FORM -->
+    <!-- BEGIN FORGOT PASSWORD FORM -->
+    <form class="forget-form" action="index.html" method="post">
+        <h3 class="font-green">Forget Password ?</h3>
+        <p> Enter your e-mail address below to reset your password. </p>
+        <div class="form-group">
+            <input class="form-control placeholder-no-fix" type="text" autocomplete="off" placeholder="Email"
+                   name="email"/></div>
+        <div class="form-actions">
+            <button type="button" id="back-btn" class="btn green btn-outline">Back</button>
+            <button type="submit" class="btn btn-success uppercase pull-right">Submit</button>
+        </div>
+    </form>
+    <!-- END FORGOT PASSWORD FORM -->
+    <!-- BEGIN REGISTRATION FORM -->
+    <form class="register-form" action="components/vertify/notification.html">
+        <h3 class="font-green">Sign Up</h3>
+        <p class="hint"> Enter your personal details below: </p>
+        <div class="form-group" style="padding-bottom: 25px;">
+
+            <tr>
+                <td><label class="control-label visible-ie8 visible-ie9">Full Name</label>
+                    <input class="form-control placeholder-no-fix" style="width: 47%;float: left" type="text"
+                           placeholder="First Name" name="firstname"/></td>
+                <td><label class="control-label visible-ie8 visible-ie9">Full Name</label>
+                    <input class="form-control placeholder-no-fix" style="width: 50%;float: right" type="text"
+                           placeholder="Last Name" name="lastname"/></td>
+                <br>
+            </tr>
+
+        </div>
+        <div class="form-group">
+            <!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
+            <label class="control-label visible-ie8 visible-ie9">Email</label>
+            <input class="form-control placeholder-no-fix" type="text" placeholder="Email" name="email"/></div>
+        <div class="form-group">
+            <label class="control-label visible-ie8 visible-ie9">Password</label>
+            <input class="form-control placeholder-no-fix" type="password" autocomplete="off" id="register_password"
+                   placeholder="Password" name="password"/></div>
+        <div class="form-group">
+            <label class="control-label visible-ie8 visible-ie9">Re-type Your Password</label>
+            <input class="form-control placeholder-no-fix" type="password" autocomplete="off"
+                   placeholder="Re-type Your Password" name="rpassword"/></div>
+        <div class="form-group">
+            <!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
+            <label class="control-label visible-ie8 visible-ie9">Phone Number</label>
+            <input class="form-control placeholder-no-fix" type="text" placeholder="Phone Number" name="phone number"/>
+        </div>
+        <div class="form-group">
+            <!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
+            <label class="control-label visible-ie8 visible-ie9">Address</label>
+            <input class="form-control placeholder-no-fix" type="text" placeholder="Address" name="address"/></div>
+
+
+        <div class="form-actions">
+            <button type="button" id="register-back-btn" class="btn green btn-outline">Back</button>
+            <a href="components/vertify/notification.html">
+                <button type="submit" id="register-submit-btn" class="btn btn-success uppercase pull-right">Register
+                </button>
+            </a>
+        </div>
+    </form>
+    <!-- END REGISTRATION FORM -->
+</div>
+
+<div class="copyright"> 2017 © TeamCIT</div>
+<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.validate.min.js"></script>
+<script src="assets/js/login.min.js"></script>
+
+
+
+<!--<script src="components/list/app.js"></script>-->
+<!--<script src="components/list/login1.js"></script>-->
+<!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>-->
+<!--<script type="text/javascript">-->
+<!--(function () {-->
+<!--var p = document.createElement('script');-->
+<!--p.type= 'text/javascript';-->
+<!--p.async = true;-->
+<!--p.src = 'http://apis.google.com/js/client.js?onload=onLoadFunction';-->
+<!--var s = document.getElementsByTagName('script')[0];-->
+<!--s.parentNode.insertBefore(p,s);-->
+<!---->
+<!--})();-->
+<!--</script>-->
+
+</body>
+
+</html>
