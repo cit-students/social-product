@@ -1,0 +1,26 @@
+<div class="modal-body">
+    <p class="alert alert-danger" ng-if="$ctrl.errorMsg.length">{{$ctrl.errorMsg}}</p>
+    <form name="$ctrl.form" novalidate ng-submit="$ctrl.submit($ctrl.data)">
+
+        <div class="form-group">
+            <label class="control-label">Product Name</label>
+            <input type="text" name="name" title="Musican Name" ng-model="$ctrl.data.musicanName" class="form-control"
+                   required maxlength="20"/>
+        </div>
+        <div class="form-group">
+            <label class="control-label">Price</label>
+            <input type="text" name="name" title="Category" ng-model="$ctrl.data.category" class="form-control"
+                   required maxlength="20"/>
+        </div>
+        <div class="form-group">
+            <label class="control-label">Description</label>
+            <input type="text" name="name" title="Category" ng-model="$ctrl.data.category" class="form-control"
+                   required maxlength="20"/>
+        </div>
+
+        <button class="btn btn-default" type="button" ng-click="$ctrl.dismiss()">Close</button>
+        <button class="btn green" type="submit" ng-click="$ctrl.dismiss()">Submit
+            <i class="fa fa-plus"></i>
+        </button>
+    </form>
+</div>

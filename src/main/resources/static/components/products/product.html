@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html ng-app="todoApp">
+<head>
+    <meta charset="utf-8"/>
+    <title>Manager Product</title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css"/>
+    <link href="../../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../../assets/css/components.min.css" rel="stylesheet" id="style_components" type="text/css"/>
+    <link href="../../node_modules/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <link href="../../node_modules/sweetalert/lib/sweet-alert.css" rel="stylesheet">
+
+    <link href="../../assets/css/layout.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../../assets/css/default.min.css" rel="stylesheet" type="text/css" id="style_color"/>
+
+
+</head>
+<body>
+<cit-header></cit-header>
+
+<div class="page-content-wrapper" style="background-color: #ECEFF1">
+    <div class="container">
+        <div class="page-title">
+            <h1>Manage Product</h1>
+        </div>
+        <div class="portlet light portlet-fit">
+            <div class="portlet-body">
+                <ui-view></ui-view>
+            </div>
+        </div>
+    </div>
+</div>
+<cit-footer></cit-footer>
+
+<script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../../node_modules/angular/angular.js"></script>
+<script src="../../node_modules/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
+<script src="../../node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
+<script src="../../node_modules/sweetalert/lib/sweet-alert.min.js"></script>
+<script src="../../node_modules/angular-sweetalert/SweetAlert.min.js"></script>
+<script src="../../assets/js/bootstrap.min.js"></script>
+
+<script src="main.js"></script>
+<script src="main.config.js"></script>
+<script src="../list/list.controller.js"></script>
+<script src="../form/form.controller.js"></script>
+<script src="../layout/header.directive.js"></script>
+<script src="../layout/footer.directive.js"></script>
+
+
+</body>
+</html>
