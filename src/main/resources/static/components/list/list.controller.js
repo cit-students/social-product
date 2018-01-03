@@ -19,7 +19,6 @@
 
         function edit() {
             $log.info('edit products!');
-
             openFormModal();
         }
         function _delete() {

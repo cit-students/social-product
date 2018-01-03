@@ -6,8 +6,5 @@
     ProductController.$inject = ['$log','$state', '$stateParams','$uibModal','SweetAlert'];
 
     function ProductController($log,$state,$stateParams,$uibModal,SweetAlert) {
-        var vm = this;
-        vm.error = "";
-
     }
 })();

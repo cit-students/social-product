@@ -6,7 +6,7 @@
     function citFooter() {
         return{
             restrict: 'E',
-            templateUrl:'../layout/footer.html'
+            templateUrl:'components/layout/footer.html'
         };
 
     }

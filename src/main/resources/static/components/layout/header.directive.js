@@ -6,7 +6,7 @@
     function citHeader() {
         return{
             restrict: 'E',
-            templateUrl:'../layout/header.html'
+            templateUrl:'components/layout/header.html'
         };
 
     }

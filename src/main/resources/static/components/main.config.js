@@ -1,12 +1,11 @@
 
-var todoApp = angular.module('todoApp');
 
 todoApp.config(function ($stateProvider) {
     var loginState = {
         name: 'main',
-        url: '',
-        templateUrl: '../list/list.html',
-        controller: 'MainController',
+        url: '/',
+        templateUrl: 'components/login/login.html',
+        controller: 'LoginController',
         controllerAs: '$ctrl',
         reloadOnSearch: false
     };
@@ -14,11 +13,12 @@ todoApp.config(function ($stateProvider) {
     var productState = {
         name: 'product',
         url: '/product',
-        templateUrl: '../products/product.html',
-        controller: 'MainController',
+        templateUrl: 'components/products/product.html',
+        controller: 'ProductController',
         controllerAs: '$ctrl',
         reloadOnSearch: false
     };
+
     $stateProvider.state(loginState);
     $stateProvider.state(productState);
 });
