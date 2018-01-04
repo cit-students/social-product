@@ -3,7 +3,7 @@
 todoApp.config(function ($stateProvider) {
     var loginState = {
         name: 'main',
-        url: '/',
+        url: '',
         templateUrl: 'components/login/login.html',
         controller: 'LoginController',
         controllerAs: '$ctrl',
@@ -18,7 +18,17 @@ todoApp.config(function ($stateProvider) {
         controllerAs: '$ctrl',
         reloadOnSearch: false
     };
+    var profileState = {
+        name: 'profile',
+        url: '/profile',
+        templateUrl: 'components/profile/profile.html',
+        controller: 'ProfileController',
+        controllerAs: '$ctrl',
+        reloadOnSearch: false
+    };
 
     $stateProvider.state(loginState);
     $stateProvider.state(productState);
+    $stateProvider.state(profileState);
+
 });
