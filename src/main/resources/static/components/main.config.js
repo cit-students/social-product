@@ -26,9 +26,18 @@ todoApp.config(function ($stateProvider) {
         controllerAs: '$ctrl',
         reloadOnSearch: false
     };
+    var detailsState = {
+        name: 'details',
+        url: '/details',
+        templateUrl: 'components/products/details.html',
+        controller: 'DetailsController',
+        controllerAs: '$ctrl',
+        reloadOnSearch: false
+    };
 
     $stateProvider.state(loginState);
     $stateProvider.state(productState);
     $stateProvider.state(profileState);
+    $stateProvider.state(detailsState);
 
 });

@@ -21,20 +21,16 @@
     </div>
 </div>
 
-<!--<p class="alert-danger alert" ng-if="">-->
-<!--{{$ctrl.error}}-->
-<!--</p>-->
-
 <table class="table table-striped table-hover table-bordered" id="sample_editable_1">
     <thead>
-    <tr>
-        <th class="col-md-1"> ID</th>
-        <th class="col-md-2"> Name</th>
-        <th class="col-md-2"> Price</th>
-        <th class="col-md-3"> Description</th>
-        <th class="col-md-1"> Edit</th>
-        <th class="col-md-1"> Delete</th>
-        <th class="col-md-2"> SYNC</th>
+    <tr role="row" class="heading">
+        <th width="5%"> ID</th>
+        <th width="20%"> Name</th>
+        <th width="15%"> Price</th>
+        <th width="23%"> Description</th>
+        <th width="22%"> Action</th>
+        <th width="15%"> SYNC</th>
+
     </tr>
     </thead>
     <tbody>
@@ -44,25 +40,16 @@
         <td> 2000000</td>
         <td class="center"> power user</td>
         <td>
-            <a class="edit" ng-click="$ctrl.edit()"> Edit </a>
-        </td>
-        <td>
-            <a class="delete" ng-click="$ctrl.delete()"> Delete </a>
-        </td>
-        <td>
-            <a class="delete" href="javascript:;"> SYNC </a>&nbsp <i><font size="2px">At 01/01/2018</font></i>
-        </td>
-    </tr>
-    <tr>
-        <td> 1</td>
-        <td> Product 1</td>
-        <td> 2000000</td>
-        <td class="center"> power user</td>
-        <td>
-            <a class="edit" ng-click="$ctrl.edit()"> Edit </a>
-        </td>
-        <td>
-            <a class="delete" ng-click="$ctrl.delete()"> Delete </a>
+            <a ui-sref="details">
+            <button style="font-size: 13px;margin-left: 3%" class="btn green" type="submit">Details
+                <i class="fa fa-plus"></i>
+            </button></a>
+            <button style="font-size: 13px" class="btn green" type="submit" ng-click="$ctrl.edit()">Edit
+                <i class="fa fa-plus"></i>
+            </button>
+            <button style="font-size: 13px" class="btn red" type="submit" ng-click="$ctrl.delete()">Delete
+                <i class="fa fa-plus"></i>
+            </button>
         </td>
         <td>
             <a class="delete" href="javascript:;"> SYNC </a>&nbsp <i><font size="2px">At 01/01/2018</font></i>
@@ -74,25 +61,16 @@
         <td> 2000000</td>
         <td class="center"> power user</td>
         <td>
-            <a class="edit" ng-click="$ctrl.edit()"> Edit </a>
-        </td>
-        <td>
-            <a class="delete" ng-click="$ctrl.delete()"> Delete </a>
-        </td>
-        <td>
-            <a class="delete" href="javascript:;"> SYNC </a>&nbsp <i><font size="2px">At 01/01/2018</font></i>
-        </td>
-    </tr>
-    <tr>
-        <td> 1</td>
-        <td> Product 1</td>
-        <td> 2000000</td>
-        <td class="center"> power user</td>
-        <td>
-            <a class="edit" ng-click="$ctrl.edit()"> Edit </a>
-        </td>
-        <td>
-            <a class="delete" ng-click="$ctrl.delete()"> Delete </a>
+            <a ui-sref="details">
+                <button style="font-size: 13px;margin-left: 3%" class="btn green" type="submit">Details
+                    <i class="fa fa-plus"></i>
+                </button></a>
+            <button style="font-size: 13px" class="btn green" type="submit" ng-click="$ctrl.edit()">Edit
+                <i class="fa fa-plus"></i>
+            </button>
+            <button style="font-size: 13px" class="btn red" type="submit" ng-click="$ctrl.delete()">Delete
+                <i class="fa fa-plus"></i>
+            </button>
         </td>
         <td>
             <a class="delete" href="javascript:;"> SYNC </a>&nbsp <i><font size="2px">At 01/01/2018</font></i>
@@ -104,25 +82,16 @@
         <td> 2000000</td>
         <td class="center"> power user</td>
         <td>
-            <a class="edit" ng-click="$ctrl.edit()"> Edit </a>
-        </td>
-        <td>
-            <a class="delete" ng-click="$ctrl.delete()"> Delete </a>
-        </td>
-        <td>
-            <a class="delete" href="javascript:;"> SYNC </a>&nbsp <i><font size="2px">At 01/01/2018</font></i>
-        </td>
-    </tr>
-    <tr>
-        <td> 1</td>
-        <td> Product 1</td>
-        <td> 2000000</td>
-        <td class="center"> power user</td>
-        <td>
-            <a class="edit" ng-click="$ctrl.edit()"> Edit </a>
-        </td>
-        <td>
-            <a class="delete" ng-click="$ctrl.delete()"> Delete </a>
+            <a ui-sref="details">
+                <button style="font-size: 13px;margin-left: 3%" class="btn green" type="submit">Details
+                    <i class="fa fa-plus"></i>
+                </button></a>
+            <button style="font-size: 13px" class="btn green" type="submit" ng-click="$ctrl.edit()">Edit
+                <i class="fa fa-plus"></i>
+            </button>
+            <button style="font-size: 13px" class="btn red" type="submit" ng-click="$ctrl.delete()">Delete
+                <i class="fa fa-plus"></i>
+            </button>
         </td>
         <td>
             <a class="delete" href="javascript:;"> SYNC </a>&nbsp <i><font size="2px">At 01/01/2018</font></i>
@@ -134,25 +103,16 @@
         <td> 2000000</td>
         <td class="center"> power user</td>
         <td>
-            <a class="edit" ng-click="$ctrl.edit()"> Edit </a>
-        </td>
-        <td>
-            <a class="delete" ng-click="$ctrl.delete()"> Delete </a>
-        </td>
-        <td>
-            <a class="delete" href="javascript:;"> SYNC </a>&nbsp <i><font size="2px">At 01/01/2018</font></i>
-        </td>
-    </tr>
-    <tr>
-        <td> 1</td>
-        <td> Product 1</td>
-        <td> 2000000</td>
-        <td class="center"> power user</td>
-        <td>
-            <a class="edit" ng-click="$ctrl.edit()"> Edit </a>
-        </td>
-        <td>
-            <a class="delete" ng-click="$ctrl.delete()"> Delete </a>
+            <a ui-sref="details">
+                <button style="font-size: 13px;margin-left: 3%" class="btn green" type="submit">Details
+                    <i class="fa fa-plus"></i>
+                </button></a>
+            <button style="font-size: 13px" class="btn green" type="submit" ng-click="$ctrl.edit()">Edit
+                <i class="fa fa-plus"></i>
+            </button>
+            <button style="font-size: 13px" class="btn red" type="submit" ng-click="$ctrl.delete()">Delete
+                <i class="fa fa-plus"></i>
+            </button>
         </td>
         <td>
             <a class="delete" href="javascript:;"> SYNC </a>&nbsp <i><font size="2px">At 01/01/2018</font></i>
@@ -164,75 +124,22 @@
         <td> 2000000</td>
         <td class="center"> power user</td>
         <td>
-            <a class="edit" ng-click="$ctrl.edit()"> Edit </a>
-        </td>
-        <td>
-            <a class="delete" ng-click="$ctrl.delete()"> Delete </a>
-        </td>
-        <td>
-            <a class="delete" href="javascript:;"> SYNC </a>&nbsp <i><font size="2px">At 01/01/2018</font></i>
-        </td>
-    </tr>
-    <tr>
-        <td> 1</td>
-        <td> Product 1</td>
-        <td> 2000000</td>
-        <td class="center"> power user</td>
-        <td>
-            <a class="edit" ng-click="$ctrl.edit()"> Edit </a>
-        </td>
-        <td>
-            <a class="delete" ng-click="$ctrl.delete()"> Delete </a>
+            <a ui-sref="details">
+                <button style="font-size: 13px;margin-left: 3%" class="btn green" type="submit">Details
+                    <i class="fa fa-plus"></i>
+                </button></a>
+            <button style="font-size: 13px" class="btn green" type="submit" ng-click="$ctrl.edit()">Edit
+                <i class="fa fa-plus"></i>
+            </button>
+            <button style="font-size: 13px" class="btn red" type="submit" ng-click="$ctrl.delete()">Delete
+                <i class="fa fa-plus"></i>
+            </button>
         </td>
         <td>
             <a class="delete" href="javascript:;"> SYNC </a>&nbsp <i><font size="2px">At 01/01/2018</font></i>
         </td>
     </tr>
-    <tr>
-        <td> 1</td>
-        <td> Product 1</td>
-        <td> 2000000</td>
-        <td class="center"> power user</td>
-        <td>
-            <a class="edit" ng-click="$ctrl.edit()"> Edit </a>
-        </td>
-        <td>
-            <a class="delete" ng-click="$ctrl.delete()"> Delete </a>
-        </td>
-        <td>
-            <a class="delete" href="javascript:;"> SYNC </a>&nbsp <i><font size="2px">At 01/01/2018</font></i>
-        </td>
-    </tr>
-    <tr>
-        <td> 1</td>
-        <td> Product 1</td>
-        <td> 2000000</td>
-        <td class="center"> power user</td>
-        <td>
-            <a class="edit" ng-click="$ctrl.edit()"> Edit </a>
-        </td>
-        <td>
-            <a class="delete" ng-click="$ctrl.delete()"> Delete </a>
-        </td>
-        <td>
-            <a class="delete" href="javascript:;"> SYNC </a>&nbsp <i><font size="2px">At 01/01/2018</font></i>
-        </td>
-    </tr>
-    <tr>
-        <td> 1</td>
-        <td> Product 1</td>
-        <td> 2000000</td>
-        <td class="center"> power user</td>
-        <td>
-            <a class="edit" ng-click="$ctrl.edit()"> Edit </a>
-        </td>
-        <td>
-            <a class="delete" ng-click="$ctrl.delete()"> Delete </a>
-        </td>
-        <td>
-            <a class="delete" href="javascript:;"> SYNC </a>&nbsp <i><font size="2px">At 01/01/2018</font></i>
-        </td>
-    </tr>
+
 
 
     </tbody>

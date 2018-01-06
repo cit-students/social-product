@@ -1,14 +1,34 @@
 <!DOCTYPE html>
 <html ng-app="todoApp">
 <head>
+
     <meta charset="utf-8"/>
     <title>My Profile</title>
+
 
 </head>
 <body>
 
 <cit-header></cit-header>
-<cit-profile></cit-profile>
+<div class="page-wrapper">
+    <div class="page-wrapper-middle">
+        <div class="page-content">
+            <div class="container">
+                <div class="row">
+                    <profile-sidebar></profile-sidebar>
+                    <!--PROFILE CONTENT-->
+                    <div class="profile-content">
+                        <div class="row">
+                            <personal-info></personal-info>
+                            <change-password></change-password>
+                        </div>
+                        <!--END PROFILE CONTENT-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <cit-footer></cit-footer>
 
 </body>
