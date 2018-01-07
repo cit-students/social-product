@@ -6,17 +6,18 @@
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet"
           type="text/css"/>
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="assets/css/components.min.css" rel="stylesheet" id="style_components" type="text/css"/>
-    <link href="assets/css/login.min.css" rel="stylesheet" type="text/css"/>
-
     <link href="node_modules/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
     <link href="node_modules/sweetalert/lib/sweet-alert.css" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
 
+    <link href="assets/css/components.min.css" rel="stylesheet" id="style_components" type="text/css"/>
+    <link href="assets/css/login.min.css" rel="stylesheet" type="text/css"/>
     <link href="assets/css/layout.min.css" rel="stylesheet" type="text/css"/>
     <link href="assets/css/default.min.css" rel="stylesheet" type="text/css" id="style_color"/>
     <link href="assets/css/profile.min.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="assets/css/jquery.fileupload.css">
 
-    <script src="assets/js/profile.min.js"></script>
+
 
 </head>
 <body class="login" ng-app="todoApp">
@@ -28,6 +29,7 @@
 <script src="assets/js/jquery.validate.min.js"></script>
 <script src="assets/js/login.min.js"></script>
 
+
 <script src="node_modules/angular/angular.js"></script>
 <script src="node_modules/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
 <script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
@@ -38,17 +40,28 @@
 <script src="components/main.config.js"></script>
 
 <script src="assets/js/app.min.js"></script>
+
 <script src="assets/js/profile.min.js"></script>
+
 
 <script src="components/login/login.controller.js"></script>
 <script src="components/form/form.controller.js"></script>
 <script src="components/list/list.controller.js"></script>
 <script src="components/products/product.controller.js"></script>
+
+
 <script src="components/products/details.controller.js"></script>
 <script src="components/profile/profile.controller.js"></script>
 <script src="components/profile/personal-info.controller.js"></script>
 <script src="components/profile/change-password.controller.js"></script>
 <script src="components/profile/change-avatar.controller.js"></script>
+<script src="components/upload/console-sham.js"></script>
+
+<script src="components/upload/angular-file-upload.min.js"></script>
+
+<!--&lt;!&ndash;thumbnails for images&ndash;&gt;-->
+<script src="components/upload/controllers.js"></script>
+<script src="components/upload/directives.js"></script>
 
 <script src="components/layout/header.directive.js"></script>
 <script src="components/layout/footer.directive.js"></script>
@@ -61,6 +74,7 @@
 <script src="components/layout/details-product.directive.js"></script>
 <script src="components/layout/upload-image.directive.js"></script>
 <script src="components/layout/comment.directive.js"></script>
+
 
 </body>
 </html>

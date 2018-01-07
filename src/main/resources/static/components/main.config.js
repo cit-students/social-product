@@ -35,6 +35,7 @@ todoApp.config(function ($stateProvider) {
         reloadOnSearch: false
     };
 
+
     $stateProvider.state(loginState);
     $stateProvider.state(productState);
     $stateProvider.state(profileState);

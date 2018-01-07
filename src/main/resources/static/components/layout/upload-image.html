@@ -1,4 +1,5 @@
-<div class="col-lg-6 col-xs-12 col-sm-12">
+<div ng-app="todoApp" ng-controller="AppController" nv-file-drop="" uploader="uploader"
+     class="col-lg-6 col-xs-12 col-sm-12">
     <div class="portlet light ">
         <div class="portlet-title tabbable-line">
             <div class="caption">
@@ -8,91 +9,93 @@
         </div>
         <div class="portlet-body">
             <div class="tab-content">
-                <div class="tab-pane active" id="tab_images">
-                    <div id="tab_images_uploader_container"
-                         class="text-align-reverse margin-bottom-10">
-                        <a id="tab_images_uploader_pickfiles"
-                           href="javascript:;" class="btn btn-success">
-                            <i class="fa fa-plus"></i> Select Files </a>
-                        <a id="tab_images_uploader_uploadfiles"
-                           href="javascript:;" class="btn btn-primary">
-                            <i class="fa fa-share"></i> Upload Files </a>
+                <h4>Select files</h4>
+                <div ng-show="uploader.isHTML5">
+                    <div class="well my-drop-zone" nv-file-over="" uploader="uploader">
+                        Base drop zone
                     </div>
-                    <div class="row">
-                        <div id="tab_images_uploader_filelist"
-                             class="col-md-6 col-sm-12"></div>
+                </div>
+                <span class="btn default fileinput-button">
+                    <i class="fa fa-plus"></i>
+                    <span> Add files... </span>
+                    <input type="file" nv-file-select="" uploader="uploader" multiple> </span>
+
+                <p>Queue length: {{ uploader.queue.length }}</p>
+                <table class="table table-striped table-hover table-bordered">
+                    <thead>
+                    <tr>
+                        <th width="10%">Name</th>
+                        <th ng-show="uploader.isHTML5">Size</th>
+                        <th ng-show="uploader.isHTML5">Progress</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="item in uploader.queue">
+                        <td>
+                            <strong style="display: inline-block;
+                                      width: 10em;
+                                      overflow: hidden;
+                                      white-space: nowrap;
+                                      text-overflow: ellipsis;">{{ item.file.name }}</strong>
+                            <!-- Image preview -->
+                            <!--auto height-->
+                            <!--<div ng-thumb="{ file: item.file, width: 100 }"></div>-->
+                            <!--auto width-->
+                            <div ng-show="uploader.isHTML5" ng-thumb="{ file: item._file, height: 100 }"></div>
+                            <!--fixed width and height -->
+                            <!--<div ng-thumb="{ file: item.file, width: 100, height: 100 }"></div>-->
+                        </td>
+                        <td ng-show="uploader.isHTML5" nowrap>{{ item.file.size/1024/1024|number:2 }} MB</td>
+                        <td ng-show="uploader.isHTML5">
+                            <div class="progress" style="margin-bottom: 0;">
+                                <div class="progress-bar" role="progressbar"
+                                     ng-style="{ 'width': item.progress + '%' }"></div>
+                            </div>
+                        </td>
+                        <td class="text-center">
+                            <span ng-show="item.isSuccess"><i class="glyphicon glyphicon-ok"></i></span>
+                            <span ng-show="item.isCancel"><i class="glyphicon glyphicon-ban-circle"></i></span>
+                            <span ng-show="item.isError"><i class="glyphicon glyphicon-remove"></i></span>
+                        </td>
+                        <td nowrap>
+                            <button type="button" class="btn btn-default btn-xs" ng-click="item.upload()"
+                                    ng-disabled="item.isReady || item.isUploading || item.isSuccess">
+                                <span class="glyphicon glyphicon-upload"></span>
+                            </button>
+                            <button type="button" class="btn btn-default btn-xs" ng-click="item.cancel()"
+                                    ng-disabled="!item.isUploading">
+                                <span class="glyphicon glyphicon-ban-circle"></span>
+                            </button>
+                            <button type="button" class="btn btn-default btn-xs" ng-click="item.remove()">
+                                <span class="glyphicon glyphicon-trash"></span>
+                            </button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <div>
+                    <div>
+                        Queue progress:
+                        <div class="progress" style="">
+                            <div class="progress-bar" role="progressbar"
+                                 ng-style="{ 'width': uploader.progress + '%' }"></div>
+                        </div>
                     </div>
-                    <table class="table table-bordered table-hover">
-                        <thead>
-                        <tr role="row" class="heading">
-                            <th width="10%"> Image</th>
-                            <th width="80%"> Name</th>
-                            <th width="10%"></th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>
-                                <a href="assets/img/1.jpg"
-                                   class="fancybox-button"
-                                   data-rel="fancybox-button">
-                                    <img class="img-responsive"
-                                         src="assets/img/1.jpg"
-                                         alt=""> </a>
-                            </td>
-                            <td>
-                                <input type="text" class="form-control"
-                                       name="product[images][1][label]"
-                                       value="Thumbnail image"></td>
-
-                            <td>
-                                <a href="javascript:;"
-                                   class="btn btn-default btn-sm">
-                                    <i class="fa fa-times"></i> Remove </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a href="assets/img/1.jpg"
-                                   class="fancybox-button"
-                                   data-rel="fancybox-button">
-                                    <img class="img-responsive"
-                                         src="assets/img/1.jpg"
-                                         alt=""> </a>
-                            </td>
-                            <td>
-                                <input type="text" class="form-control"
-                                       name="product[images][1][label]"
-                                       value="Thumbnail image"></td>
-
-                            <td>
-                                <a href="javascript:;"
-                                   class="btn btn-default btn-sm">
-                                    <i class="fa fa-times"></i> Remove </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a href="assets/img/1.jpg"
-                                   class="fancybox-button"
-                                   data-rel="fancybox-button">
-                                    <img class="img-responsive"
-                                         src="assets/img/1.jpg"
-                                         alt=""> </a>
-                            </td>
-                            <td>
-                                <input type="text" class="form-control"
-                                       name="product[images][1][label]"
-                                       value="Thumbnail image"></td>
-
-                            <td>
-                                <a href="javascript:;"
-                                   class="btn btn-default btn-sm">
-                                    <i class="fa fa-times"></i> Remove </a>
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
+                    <button type="button" class="btn btn-default btn-s" ng-click="uploader.uploadAll()"
+                            ng-disabled="!uploader.getNotUploadedItems().length">
+                        <span class="glyphicon glyphicon-upload"></span> Upload all
+                    </button>
+                    <button type="button" class="btn btn-default btn-s" ng-click="uploader.cancelAll()"
+                            ng-disabled="!uploader.isUploading">
+                        <span class="glyphicon glyphicon-ban-circle"></span> Cancel all
+                    </button>
+                    <button type="button" class="btn btn-default btn-s" ng-click="uploader.clearQueue()"
+                            ng-disabled="!uploader.queue.length">
+                        <span class="glyphicon glyphicon-trash"></span> Remove all
+                    </button>
                 </div>
             </div>
         </div>
