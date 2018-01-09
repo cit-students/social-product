@@ -22,6 +22,7 @@ DROP TABLE IF EXISTS `comments`;
 
 CREATE TABLE `comments` (
   `message_id` varchar(64) NOT NULL,
+  `content` text,
   `product_id` bigint(20) unsigned NOT NULL,
   `social_name` varchar(20) NOT NULL,
   `social_post_id` varchar(64) NOT NULL,
