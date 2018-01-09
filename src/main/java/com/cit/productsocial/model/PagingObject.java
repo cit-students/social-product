@@ -1,4 +1,4 @@
-package com.cit.productsocial.controller;
+package com.cit.productsocial.model;
 
 import lombok.Data;
 

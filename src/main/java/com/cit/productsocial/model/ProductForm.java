@@ -1,8 +1,10 @@
-package com.cit.productsocial.controller;
+package com.cit.productsocial.model;
 
 import lombok.Data;
 
 import java.math.BigDecimal;
+import java.util.List;
+
 @Data
 public class ProductForm {
 
@@ -11,4 +13,5 @@ public class ProductForm {
     private String desc;
 
 
+    private List<String> images;
 }

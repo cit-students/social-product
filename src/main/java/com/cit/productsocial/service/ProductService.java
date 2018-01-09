@@ -1,7 +1,7 @@
 package com.cit.productsocial.service;
 
-import com.cit.productsocial.controller.PagingObject;
-import com.cit.productsocial.controller.ProductForm;
+import com.cit.productsocial.model.PagingObject;
+import com.cit.productsocial.model.ProductForm;
 import com.cit.productsocial.domain.Products;
 import com.cit.productsocial.domain.Products_;
 import com.cit.productsocial.model.ProductModel;
@@ -15,7 +15,6 @@ import org.springframework.util.StringUtils;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 @Service

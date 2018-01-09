@@ -1,6 +1,8 @@
 package com.cit.productsocial.controller;
 
 import com.cit.productsocial.domain.Products;
+import com.cit.productsocial.model.PagingObject;
+import com.cit.productsocial.model.ProductForm;
 import com.cit.productsocial.model.ProductModel;
 import com.cit.productsocial.service.ProductService;
 import org.springframework.data.domain.Pageable;
