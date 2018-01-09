@@ -1,4 +1,5 @@
 target/
 *.iml
 .idea/
+chrome.dll.sig
 META-INF/
