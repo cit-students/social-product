@@ -1,8 +1,10 @@
 package com.cit.productsocial.utils.social.facebook;
 
-import com.cit.productsocial.utils.social.SocialProduct;
-import com.cit.productsocial.utils.social.object.CommentObject;
-import com.cit.productsocial.utils.social.object.PostDataObject;
+import com.cit.productsocial.utils.social.SocialProductInterface;
+import com.cit.productsocial.utils.social.facebook.object.FriendTag;
+import com.cit.productsocial.utils.social.facebook.object.UserLike;
+import com.cit.productsocial.utils.social.data.CommentObject;
+import com.cit.productsocial.utils.social.data.PostDataObject;
 import lombok.Data;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
@@ -27,23 +29,13 @@ import java.util.List;
 import static org.apache.commons.codec.CharEncoding.UTF_8;
 
 @Data
-public class FacebookClient implements SocialProduct {
+public class FacebookClient implements SocialProductInterface {
 
     private String accessToken;
     private final HttpClient client;
 
     private static final String FB_GRAPH_API = "https://graph.facebook.com/v2.11/";
     private static final String FB_DEFAULT_PAGE_ID = "me";
-    private final static String FB_ARGUMENT_ID = "id";
-    private final static String FB_ARGUMENT_MESSAGE = "message";
-    private final static String FB_ARGUMENT_URL = "url";
-    private final static String FB_ARGUMENT_DESCRIPTION = "description";
-    private final static String FB_ARGUMENT_CAPTION = "caption";
-    private final static String FB_ARGUMENT_URL_LINK = "urlLink";
-    private final static String FB_ARGUMENT_PUBLISHED = "published";
-    private final static String FB_ARGUMENT_ACCESS_TOKEN = "access_token";
-    private final static String FB_ARGUMENT_ATTACHED_MEDIA = "attached_media";
-    private final static String FB_ARGUMENT_MEDIA_FBID = "media_fbid";
 
     public FacebookClient() {
         client = HttpClientBuilder.create().build();
@@ -53,6 +45,7 @@ public class FacebookClient implements SocialProduct {
         this.accessToken = accessToken;
         client = HttpClientBuilder.create().build();
     }
+
 
     @Override
     public boolean isTokenValid() {
@@ -74,12 +67,12 @@ public class FacebookClient implements SocialProduct {
         if (!isTokenValid()) throw new IllegalArgumentException("Access token is invalid or has been expired");
         HttpPost postRequest = new HttpPost(FB_GRAPH_API + "me/photos");
         List<NameValuePair> params = new ArrayList<>();
-        params.add(new BasicNameValuePair(FB_ARGUMENT_URL, photoData.getUrl()));
-        params.add(new BasicNameValuePair(FB_ARGUMENT_ACCESS_TOKEN, accessToken));
-        params.add(new BasicNameValuePair(FB_ARGUMENT_PUBLISHED, "false"));
+        params.add(new BasicNameValuePair("url", photoData.getUrl()));
+        params.add(new BasicNameValuePair("access_token", accessToken));
+        params.add(new BasicNameValuePair("published", "false"));
         try {
             postRequest.setEntity(new UrlEncodedFormEntity(params, UTF_8));
-            return getValue(client.execute(postRequest), FB_ARGUMENT_ID);
+            return getValue(client.execute(postRequest), "id");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -100,8 +93,8 @@ public class FacebookClient implements SocialProduct {
         HttpPost postRequest = new HttpPost(FB_GRAPH_API + pageId + "/feed");
         List<NameValuePair> params = new ArrayList<>();
         String message = sellingTemplate(productData);
-        params.add(new BasicNameValuePair(FB_ARGUMENT_MESSAGE, message));
-        params.add(new BasicNameValuePair(FB_ARGUMENT_ACCESS_TOKEN, accessToken));
+        params.add(new BasicNameValuePair("message", message));
+        params.add(new BasicNameValuePair("access_token", accessToken));
         List<String> imageUrls = productData.getImageUrls();
         List<String> listIds = new ArrayList<>();
         /* Upload multi photos */
@@ -111,8 +104,8 @@ public class FacebookClient implements SocialProduct {
                 String id = postPhoto(new PostDataObject()
                                 .photoData("", imageUrl, "", productData.getPrice()));
                 listIds.add(id);
-                params.add(new BasicNameValuePair(FB_ARGUMENT_ATTACHED_MEDIA + "["+ (i++) +"]",
-                        "{" + FB_ARGUMENT_MEDIA_FBID + ":" + id + "}"));
+                params.add(new BasicNameValuePair("attached_media" + "["+ (i++) +"]",
+                        "{" + "media_fbid" + ":" + id + "}"));
             }
         }
         /* Tag friends */
@@ -121,7 +114,7 @@ public class FacebookClient implements SocialProduct {
         }
         try {
             postRequest.setEntity(new UrlEncodedFormEntity(params, UTF_8));
-            listIds.add(0, getValue(client.execute(postRequest), FB_ARGUMENT_ID));
+            listIds.add(0, getValue(client.execute(postRequest), "id"));
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -238,7 +231,7 @@ public class FacebookClient implements SocialProduct {
         try {
             HttpResponse response = client.execute(getRequest);
             JSONObject result = new JSONObject(EntityUtils.toString(response.getEntity()));
-            if (result.has("error")) throw new RuntimeException("" + result.getJSONObject("error"));
+            if (result.has("error")) throw new RuntimeException(result.getJSONObject("error").toString());
             JSONArray data = result.getJSONArray("data");
             List<UserLike> userLikes = new ArrayList<>();
             for (int i = 0; i < data.length(); i++) {
@@ -259,36 +252,27 @@ public class FacebookClient implements SocialProduct {
      * Simple template message for post
      *
      * */
-    @Override
-    public String sellingTemplate(PostDataObject data) {
-        String message = "";
-        String caption = data.getCaption();
+    private String sellingTemplate(PostDataObject data) {
+        StringBuilder message = new StringBuilder();
         String name = data.getName();
         String description = data.getDescription();
-        String saleInfo = data.getSaleInfo();
         BigDecimal price = data.getPrice();
-        if (!caption.isEmpty()) {
-            message += caption.toUpperCase() + "\n";
-        }
         if (!name.isEmpty()) {
-            message += FacebookEmoji.T_SHIRT + " Sản phẩm: " + name + "\n";
+            message.append("\uD83D\uDCE6" + " Sản phẩm: ").append(name).append("\n");
         }
         if (!description.isEmpty()) {
-            message += FacebookEmoji.LIKE + " Mô tả: " + description;
+            message.append("\uD83D\uDC4D" + " Mô tả: ").append(description);
         }
         if (price != null) {
-            message += "\n----------------------------------------------------\n";
-            message += FacebookEmoji.MONEY_DOLLAR + " Giá:" + price + "₫\n";
-            if (!saleInfo.isEmpty()) {
-                message += FacebookEmoji.SALES + " Khuyến mãi: " + saleInfo + "\n";
-            }
+            message.append("\n----------------------------------------------------\n");
+            message.append("\uD83D\uDCB5" + " Giá:").append(price).append("₫\n");
         }
         if (data.getLinkUrls() != null) {
             for (String link : data.getLinkUrls()) {
-                message += "Link: " + link + "\n";
+                message.append("Link: ").append(link).append("\n");
             }
         }
-        return message;
+        return message.toString();
     }
 
     private String getValue(HttpResponse response, String key) throws IOException {

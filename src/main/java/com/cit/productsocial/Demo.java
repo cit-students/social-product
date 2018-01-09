@@ -1,8 +1,8 @@
 package com.cit.productsocial;
 
 import com.cit.productsocial.utils.social.facebook.FacebookClient;
-import com.cit.productsocial.utils.social.object.CommentObject;
-import com.cit.productsocial.utils.social.object.PostDataObject;
+import com.cit.productsocial.utils.social.data.CommentObject;
+import com.cit.productsocial.utils.social.data.PostDataObject;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -104,7 +104,7 @@ public class Demo {
 
         /* Tags friends */
         String[] idTags = new String[]{"AaLdFFwp3TbqHl9laO4qyT7KNyB_GJ7LUM5MEWAJQnbYOxMUWLfmJFfpl3V9uOpgUiyMdekAe5yC3AynimrEU0ScF0GRuphv9MQHjLQFLnGCGg"};
-        productData.product(caption, name, url, price, description, saleInfo, imgUrls)
+        productData.product(name, url, price, description, imgUrls)
                 .setIdFriendTags(idTags);
     }
 
