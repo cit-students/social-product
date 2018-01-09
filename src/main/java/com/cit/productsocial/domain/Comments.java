@@ -22,6 +22,7 @@ public class Comments {
     @Id
     @Column(name = "social_post_id", nullable = false, length = 64)
     private String socialPostId;
+    private String content;
     @Basic
     @Column(name = "comment_by_name", nullable = true, length = 32)
     private String commentByName;
