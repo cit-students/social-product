@@ -5,6 +5,13 @@
                 <i class="icon-bubbles font-dark hide"></i>
                 <span class="caption-subject font-dark bold uppercase">Comments</span>
             </div>
+            <div class="inputs">
+                <div class="portlet-input input-inline input-small ">
+                    <div class="input-icon right">
+                        <i class="icon-magnifier"></i>
+                        <input type="text" class="form-control form-control-solid input-circle" placeholder="search..."> </div>
+                </div>
+            </div>
         </div>
         <div class="portlet-body">
             <div class="tab-content">
@@ -67,11 +74,12 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                     <!-- END: Comments -->
                 </div>
             </div>
         </div>
+        <ul uib-pagination total-items="$ctrl.filter.totalItems" ng-model="$ctrl.filter.page" max-size="5"
+            class="pagination-sm" boundary-link-numbers="true" rotate="false" ng-change="$ctrl.pageChange()"></ul>
     </div>
 </div>

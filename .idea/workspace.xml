@@ -2,108 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f188b08-24d1-411a-aeb9-388d22f0e49e" name="Default" comment="02/01/2018">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/ThaiHuyPC.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/jquery.fileupload.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/components/upload/angular-file-upload.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/components/upload/console-sham.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/components/upload/controllers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/components/upload/directives.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/components/upload/indexx.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/components/upload/upload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/.babelrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/WebpackConfig.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/dist/angular-file-upload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/dist/angular-file-upload.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/dist/angular-file-upload.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/dist/angular-file-upload.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/examples/console-sham.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/examples/console-sham.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/examples/image-preview/controllers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/examples/image-preview/directives.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/examples/image-preview/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/examples/image-preview/upload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/examples/image-preview/uploads/gap.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/examples/simple/controllers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/examples/simple/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/examples/simple/upload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/examples/simple/uploads/gap.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/examples/without-bootstrap/controllers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/examples/without-bootstrap/directives.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/examples/without-bootstrap/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/examples/without-bootstrap/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/examples/without-bootstrap/upload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/examples/without-bootstrap/uploads/gap.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/license.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/src/config.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/src/directives/FileDrop.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/src/directives/FileOver.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/src/directives/FileSelect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/src/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/src/services/FileDirective.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/src/services/FileDrop.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/src/services/FileItem.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/src/services/FileLikeObject.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/src/services/FileOver.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/src/services/FileSelect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/src/services/FileUploader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/src/services/Pipeline.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/angular-file-upload/src/values/options.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/css/bootstrap-switch.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/css/plugins.min.css" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/components/login/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/components/form/form.html" afterPath="$PROJECT_DIR$/src/main/resources/static/components/form/form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/components/layout/change-password.html" afterPath="$PROJECT_DIR$/src/main/resources/static/components/layout/change-password.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/components/layout/comment.html" afterPath="$PROJECT_DIR$/src/main/resources/static/components/layout/comment.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/components/layout/details-product.html" afterPath="$PROJECT_DIR$/src/main/resources/static/components/layout/details-product.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/components/layout/header.html" afterPath="$PROJECT_DIR$/src/main/resources/static/components/layout/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/components/layout/upload-image.html" afterPath="$PROJECT_DIR$/src/main/resources/static/components/layout/upload-image.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/components/list/list.html" afterPath="$PROJECT_DIR$/src/main/resources/static/components/list/list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/components/main.config.js" afterPath="$PROJECT_DIR$/src/main/resources/static/components/main.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/components/main.js" afterPath="$PROJECT_DIR$/src/main/resources/static/components/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/components/layout/personal-info.html" afterPath="$PROJECT_DIR$/src/main/resources/static/components/layout/personal-info.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/components/login/login.controller.js" afterPath="$PROJECT_DIR$/src/main/resources/static/components/login/login.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/components/login/login.html" afterPath="$PROJECT_DIR$/src/main/resources/static/components/login/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/components/products/details.html" afterPath="$PROJECT_DIR$/src/main/resources/static/components/products/details.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/components/profile/profile.html" afterPath="$PROJECT_DIR$/src/main/resources/static/components/profile/profile.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/.npmignore" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/HELP-US-OUT.txt" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/HELP-US-OUT.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/README.md" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/css/font-awesome.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/css/font-awesome.css.map" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/css/font-awesome.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/css/font-awesome.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/fonts/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/less/animated.less" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/less/animated.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/less/bordered-pulled.less" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/less/bordered-pulled.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/less/core.less" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/less/core.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/less/fixed-width.less" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/less/fixed-width.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/less/font-awesome.less" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/less/font-awesome.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/less/icons.less" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/less/icons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/less/larger.less" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/less/larger.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/less/list.less" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/less/list.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/less/mixins.less" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/less/mixins.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/less/path.less" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/less/path.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/less/rotated-flipped.less" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/less/rotated-flipped.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/less/screen-reader.less" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/less/screen-reader.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/less/stacked.less" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/less/stacked.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/less/variables.less" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/less/variables.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/package.json" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/scss/_animated.scss" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/scss/_animated.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/scss/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/scss/_bordered-pulled.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/scss/_core.scss" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/scss/_core.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/scss/_fixed-width.scss" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/scss/_fixed-width.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/scss/_icons.scss" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/scss/_icons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/scss/_larger.scss" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/scss/_larger.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/scss/_list.scss" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/scss/_list.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/scss/_mixins.scss" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/scss/_mixins.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/scss/_path.scss" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/scss/_path.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/scss/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/scss/_rotated-flipped.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/scss/_screen-reader.scss" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/scss/_screen-reader.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/scss/_stacked.scss" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/scss/_stacked.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/scss/_variables.scss" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/scss/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/scss/font-awesome.scss" afterPath="$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/scss/font-awesome.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/test-merge.html" afterPath="$PROJECT_DIR$/src/main/resources/static/test-merge.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/css/custom.min.css" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -114,90 +24,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/components/layout/header.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="change-password.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/components/layout/change-password.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="75" column="55" lean-forward="false" selection-start-line="75" selection-start-column="55" selection-end-line="75" selection-end-column="55" />
+            <state relative-caret-position="252">
+              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
+      <file leaf-file-name="personal-info.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/components/layout/personal-info.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="332">
+              <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="upload-image.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/components/layout/upload-image.html">
+      <file leaf-file-name="profile.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/components/profile/profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="37" column="47" lean-forward="false" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/components/list/list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="43" column="71" lean-forward="false" selection-start-line="43" selection-start-column="71" selection-end-line="43" selection-end-column="71" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#button#0;n#a#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#1;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#td#5;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#button#0;n#a#0;n#td#4;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#td#4;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#1;n#td#4;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#td#5;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#tr#2;n#tbody#0;n#table#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#button#0;n#a#0;n#td#4;n#tr#2;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#td#4;n#tr#2;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#1;n#td#4;n#tr#2;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#td#5;n#tr#2;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#tr#3;n#tbody#0;n#table#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#button#0;n#a#0;n#td#4;n#tr#3;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#td#4;n#tr#3;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#1;n#td#4;n#tr#3;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#td#5;n#tr#3;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#tr#4;n#tbody#0;n#table#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#button#0;n#a#0;n#td#4;n#tr#4;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#td#4;n#tr#4;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#1;n#td#4;n#tr#4;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#td#5;n#tr#4;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#tr#5;n#tbody#0;n#table#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#button#0;n#a#0;n#td#4;n#tr#5;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#td#4;n#tr#5;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#1;n#td#4;n#tr#5;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#td#5;n#tr#5;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#tr#6;n#tbody#0;n#table#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#button#0;n#a#0;n#td#4;n#tr#6;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#td#4;n#tr#6;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#1;n#td#4;n#tr#6;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#td#5;n#tr#6;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="23" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="21" selection-end-column="23" />
+            <state relative-caret-position="450">
+              <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -251,7 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/static/components/products/main.config.js" />
         <option value="$PROJECT_DIR$/src/main/resources/static/components/login/login.directive.js" />
         <option value="$PROJECT_DIR$/src/main/resources/static/components/layout/footer.directive.js" />
         <option value="$PROJECT_DIR$/src/main/resources/static/components/layout/footer.html" />
@@ -259,7 +110,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/static/components/layout/content.directive.js" />
         <option value="$PROJECT_DIR$/src/main/resources/static/components/list/list.config.js" />
         <option value="$PROJECT_DIR$/src/main/resources/static/components/layout/table.directive.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/components/login/login.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/components/products/product.controller.js" />
         <option value="$PROJECT_DIR$/src/main/resources/static/components/profile/test.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/assets/css/layout.min.css" />
@@ -272,14 +122,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/static/components/layout/details.directive.js" />
         <option value="$PROJECT_DIR$/src/main/resources/static/components/products/details.controller.js" />
         <option value="$PROJECT_DIR$/src/main/resources/static/test.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/components/layout/comment.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/components/layout/upload-image.directive.js" />
         <option value="$PROJECT_DIR$/src/main/resources/static/components/layout/comment.directive.js" />
         <option value="$PROJECT_DIR$/src/main/resources/static/components/layout/details-product.directive.js" />
         <option value="$PROJECT_DIR$/src/main/resources/static/components/layout/details.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/components/layout/profile.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/components/layout/personal-info.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/components/profile/profile.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/components/layout/content.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/components/products/product.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/assets/js/plupload.full.min.js" />
@@ -294,14 +141,19 @@
         <option value="$PROJECT_DIR$/src/main/resources/static/components/upload/upload.php" />
         <option value="$PROJECT_DIR$/src/main/resources/static/test-merge.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/components/form/form.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/components/layout/change-password.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/components/layout/header.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/components/products/details.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/components/layout/details-product.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/assets/css/style.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/components/list/list.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/components/layout/upload-image.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/components/login/login.controller.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/components/login/login.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/components/layout/comment.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/components/products/details.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/components/layout/details-product.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/components/layout/change-password.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/components/layout/personal-info.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/components/profile/profile.html" />
       </list>
     </option>
   </component>
@@ -335,9 +187,10 @@
     <handled-path value="$PROJECT_DIR$/src/main/resources/static/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-193" />
-    <option name="width" value="1386" />
-    <option name="height" value="788" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -357,8 +210,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -441,20 +292,12 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="profile" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="product-social" type="b2602c69:ProjectViewProjectNode" />
-              <item name="social-product" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
@@ -465,7 +308,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/angular-file-upload" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelWidth1" value="75" />
@@ -477,19 +320,19 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\SpringBoot\projects\social-product\src\main\resources\static\components" />
-      <recent name="D:\SpringBoot\projects\social-product\src\main\resources\static\components\upload" />
-      <recent name="D:\SpringBoot\projects\social-product\src\main\resources\static\node_modules" />
-      <recent name="D:\SpringBoot\projects\social-product\src\main\resources\static\assets\jss" />
-      <recent name="D:\SpringBoot\projects\social-product\src\main\resources\static\assets\css" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\SpringBoot\projects\social-product\src\main\resources\static\assets\css" />
       <recent name="D:\SpringBoot\projects\social-product\src\main\resources\static\assets\img" />
       <recent name="D:\SpringBoot\social-product\src\main\resources\static\components\layout" />
       <recent name="D:\SpringBoot\social-product\src\main\resources\static" />
       <recent name="D:\SpringBoot\social-product\src\main\resources\static\components" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ThaiHuyPC\Desktop\test\social-product\src\main\resources\static\components\login" />
+      <recent name="D:\SpringBoot\projects\social-product\src\main\resources\static\components" />
+      <recent name="D:\SpringBoot\projects\social-product\src\main\resources\static\components\upload" />
+      <recent name="D:\SpringBoot\projects\social-product\src\main\resources\static\node_modules" />
+      <recent name="D:\SpringBoot\projects\social-product\src\main\resources\static\assets\jss" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -619,6 +462,9 @@
       <workItem from="1515289483070" duration="5771000" />
       <workItem from="1515300039919" duration="426000" />
       <workItem from="1515300504886" duration="17930000" />
+      <workItem from="1515464702633" duration="1981000" />
+      <workItem from="1515720096461" duration="610000" />
+      <workItem from="1515720965467" duration="5859000" />
     </task>
     <task id="LOCAL-00001" summary="02/01/2018">
       <created>1514866299006</created>
@@ -638,7 +484,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121349000" />
+    <option name="totallyTimeSpent" value="129799000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -652,16 +498,15 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30872482" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23657718" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34731543" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718122" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2473525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25869894" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="top" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -673,14 +518,15 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -688,19 +534,19 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39932886" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718122" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23657718" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34731543" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718122" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26172465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25869894" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
@@ -723,30 +569,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/components/layout/personal-info.directive.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/components/layout/change-password.directive.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/components/layout/profile.directive.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/components/layout/profile.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/components/profile/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/components/layout/content.html" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/components/list/list.config.js" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/components/layout/table.directive.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -755,70 +577,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/css/plugins.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/js/plupload.full.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5076">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/js/ecommerce-products-edit.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/js/bootstrap-maxlength.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/js/bootstrap-datepicker.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/js/bootstrap-datetimepicker.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5526">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/jss/load-image.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2381">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/jss/form-fileupload.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/jss/jquery.fileupload-ui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/css/plugins.min.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/js/plupload.full.min.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/js/ecommerce-products-edit.min.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/js/bootstrap-maxlength.min.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/js/bootstrap-datepicker.min.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/js/bootstrap-datetimepicker.min.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/jss/load-image.min.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/jss/form-fileupload.min.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/jss/jquery.fileupload-ui.js" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/node_modules/font-awesome/css/font-awesome.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -826,21 +593,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/jss/jquery.fileupload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="86" column="19" lean-forward="false" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/jss/jquery.blueimp-gallery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4757">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/jss/jquery.fileupload.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/jss/jquery.blueimp-gallery.min.js" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/components/products/product.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -859,7 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -867,7 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -875,15 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/components/main.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="36" column="4" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -891,7 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="61" lean-forward="false" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -899,7 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -907,7 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -915,7 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -923,7 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -931,13 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="44" column="34" lean-forward="false" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="34" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -945,17 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="37" column="118" lean-forward="true" selection-start-line="34" selection-start-column="11" selection-end-line="37" selection-end-column="118" />
-          <folding>
-            <element signature="n#span#0;n#div#0;n#div#0;n#form#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/components/layout/personal-info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="49" column="6" lean-forward="false" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -963,35 +683,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-29">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/css/font-awesome.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/css/font-awesome.min.css" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/css/components.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-29">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#542569#542740#2" expanded="true" />
-            <element signature="e#546694#547011#2" expanded="true" />
-            <element signature="e#548098#548415#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/components/layout/change-password.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="29" column="69" lean-forward="false" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -999,15 +698,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/components/layout/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
+        <state relative-caret-position="1350">
           <caret line="75" column="55" lean-forward="false" selection-start-line="75" selection-start-column="55" selection-end-line="75" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1015,49 +712,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="147" column="14" lean-forward="false" selection-start-line="147" selection-start-column="1" selection-end-line="147" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/components/layout/details-product.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="42" lean-forward="false" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
-          <folding>
-            <element signature="n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/components/layout/comment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/components/products/details.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="55" lean-forward="false" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/css/jquery.fileupload-ui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-615">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/css/jquery.fileupload-ui.css" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/css/jquery.fileupload.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
           <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1065,77 +727,128 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/components/layout/upload-image.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/components/main.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/components/login/login.directive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/css/style.css">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/components/login/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="23" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="21" selection-end-column="23" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/components/login/login.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/components/login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="260">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/components/list/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="43" column="71" lean-forward="false" selection-start-line="43" selection-start-column="71" selection-end-line="43" selection-end-column="71" />
+        <state relative-caret-position="422">
+          <caret line="228" column="106" lean-forward="true" selection-start-line="227" selection-start-column="0" selection-end-line="228" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/components/layout/comment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="81" column="11" lean-forward="false" selection-start-line="81" selection-start-column="11" selection-end-line="81" selection-end-column="11" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#button#0;n#a#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#td#5;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#button#0;n#a#0;n#td#4;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#td#4;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#td#4;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#td#5;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#tr#2;n#tbody#0;n#table#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#button#0;n#a#0;n#td#4;n#tr#2;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#td#4;n#tr#2;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#td#4;n#tr#2;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#td#5;n#tr#2;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#tr#3;n#tbody#0;n#table#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#button#0;n#a#0;n#td#4;n#tr#3;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#td#4;n#tr#3;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#td#4;n#tr#3;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#td#5;n#tr#3;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#tr#4;n#tbody#0;n#table#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#button#0;n#a#0;n#td#4;n#tr#4;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#td#4;n#tr#4;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#td#4;n#tr#4;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#td#5;n#tr#4;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#tr#5;n#tbody#0;n#table#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#button#0;n#a#0;n#td#4;n#tr#5;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#td#4;n#tr#5;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#td#4;n#tr#5;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#td#5;n#tr#5;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#tr#6;n#tbody#0;n#table#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#button#0;n#a#0;n#td#4;n#tr#6;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#td#4;n#tr#6;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#td#4;n#tr#6;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#td#5;n#tr#6;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/components/layout/upload-image.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/components/products/details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="37" column="47" lean-forward="false" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="360">
+          <caret line="20" column="55" lean-forward="false" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/components/layout/details-product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/components/layout/change-password.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/components/layout/personal-info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/components/profile/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
