@@ -1,6 +1,7 @@
 package com.cit.productsocial.utils.social.facebook;
 
 import com.cit.productsocial.utils.social.SocialProductInterface;
+import com.cit.productsocial.utils.social.data.UserObject;
 import com.cit.productsocial.utils.social.facebook.object.FriendTag;
 import com.cit.productsocial.utils.social.facebook.object.UserLike;
 import com.cit.productsocial.utils.social.data.CommentObject;
@@ -16,13 +17,17 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
-import org.joda.time.DateTime;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.io.IOException;
 import java.math.BigDecimal;
+import java.sql.Date;
 import java.sql.Timestamp;
+import java.text.SimpleDateFormat;
+import java.time.Instant;
+import java.time.format.DateTimeFormatter;
+import java.time.temporal.TemporalAccessor;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -56,6 +61,7 @@ public class FacebookClient implements SocialProductInterface {
             if (result.has("error")) {
                 return false;
             }
+
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -63,8 +69,31 @@ public class FacebookClient implements SocialProductInterface {
     }
 
     @Override
+    public UserObject getInfoFromToken() {
+        final String FIELDS = "id,name,email,picture,birthday";
+        HttpPost request = new HttpPost(FB_GRAPH_API + "me?fields=" + FIELDS + "&access_token=" + accessToken);
+        UserObject userObject = new UserObject();
+        try {
+            HttpResponse response = client.execute(request);
+            JSONObject result = new JSONObject(EntityUtils.toString(response.getEntity()));
+            if (result.has("error")) {
+                return null;
+            }
+            userObject.setId(result.getString("id"));
+            userObject.setEmail(result.getString("email"));
+            String birthDay = result.getString("birthday");
+            userObject.setBirthDay(strToDate(birthDay));
+            userObject.setName(result.getString("name"));
+            userObject.setAvatarUrl(result.getJSONObject("data").getString("url"));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return userObject;
+    }
+
+    @Override
     public String postPhoto(PostDataObject photoData) {
-        if (!isTokenValid()) throw new IllegalArgumentException("Access token is invalid or has been expired");
+        if (!this.isTokenValid()) throw new IllegalArgumentException("Access token is invalid or has been expired");
         HttpPost postRequest = new HttpPost(FB_GRAPH_API + "me/photos");
         List<NameValuePair> params = new ArrayList<>();
         params.add(new BasicNameValuePair("url", photoData.getUrl()));
@@ -80,13 +109,13 @@ public class FacebookClient implements SocialProductInterface {
     }
 
     /**
-     * @Note: final element is id of main post
-     * other elements are id of photo
+     * Final element is id of main post
+     * other elements are id of photos
      *
      * */
     @Override
     public List<String> postProducts(String pageId, PostDataObject productData) {
-        if (!isTokenValid()) throw new IllegalArgumentException("Access token is invalid or has been expired");
+        if (!this.isTokenValid()) throw new IllegalArgumentException("Access token is invalid or has been expired");
         if (pageId.isEmpty()) {
             pageId = FB_DEFAULT_PAGE_ID;
         }
@@ -138,7 +167,7 @@ public class FacebookClient implements SocialProductInterface {
      * */
     @Override
     public void updateProduct(String postId, PostDataObject productData) {
-        if (!isTokenValid()) throw new IllegalArgumentException("Access token is not invalid or has been expired");
+        if (!this.isTokenValid()) throw new IllegalArgumentException("Access token is not invalid or has been expired");
         HttpPost postRequest = new HttpPost(FB_GRAPH_API + postId);
         List<NameValuePair> params = new ArrayList<>();
         if (productData.getDescription() != null) {
@@ -162,7 +191,7 @@ public class FacebookClient implements SocialProductInterface {
 
     @Override
     public List<CommentObject> getListComments(String postId) {
-        if (!isTokenValid()) throw new IllegalArgumentException("Access token is not invalid or has been expired");
+        if (!this.isTokenValid()) throw new IllegalArgumentException("Access token is not invalid or has been expired");
         HttpGet getRequest = new HttpGet(FB_GRAPH_API + postId + "/comments" + "?access_token=" + accessToken);
         try {
             HttpResponse response = client.execute(getRequest);
@@ -173,7 +202,7 @@ public class FacebookClient implements SocialProductInterface {
             for (int i = 0; i < size; i++) {
                 JSONObject object = data.getJSONObject(i);
                 CommentObject comment = new CommentObject();
-                comment.setCreateAt(getDateTime(object.getString("created_time")));
+                comment.setCreateAt(fbTimeToSQLDate(object.getString("created_time")));
                 comment.setMessage(object.getString("message"));
                 comment.setId(object.getString("id"));
                 JSONObject nodeObject = object.getJSONObject("from");
@@ -194,7 +223,7 @@ public class FacebookClient implements SocialProductInterface {
      * of current user
      * */
     public List<FriendTag> getListFriendsTag() {
-        if (!isTokenValid()) throw new IllegalArgumentException("Access token is not invalid or has been expired");
+        if (!this.isTokenValid()) throw new IllegalArgumentException("Access token is not invalid or has been expired");
         HttpGet getRequest = new HttpGet(FB_GRAPH_API + "me" + "/taggable_friends" + "?access_token=" + accessToken);
         try {
             HttpResponse response = client.execute(getRequest);
@@ -226,7 +255,7 @@ public class FacebookClient implements SocialProductInterface {
      *
      * */
     public List<UserLike> getLikes() {
-        if (!isTokenValid()) throw new IllegalArgumentException("Access token is not invalid or has been expired");
+        if (!this.isTokenValid()) throw new IllegalArgumentException("Access token is not invalid or has been expired");
         HttpGet getRequest = new HttpGet(FB_GRAPH_API + "me/" + "likes");
         try {
             HttpResponse response = client.execute(getRequest);
@@ -282,12 +311,32 @@ public class FacebookClient implements SocialProductInterface {
 
     private Timestamp getDateTime(String dateTime) {
         try {
-            DateTime time = new DateTime();
-            return new Timestamp(12345678);
+            DateTimeFormatter timeFormatter = DateTimeFormatter.ISO_DATE_TIME;
+            TemporalAccessor accessor = timeFormatter.parse(dateTime);
+            java.util.Date date = java.util.Date.from(Instant.from(accessor));
+            return new Timestamp(date.getTime());
         } catch (Exception e) {
             e.printStackTrace();
         }
         return null;
+    }
+
+    private Date strToDate(String strDate) {
+        SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
+        Date sqlDate = null;
+        try {
+            java.util.Date date = format.parse(strDate);
+            sqlDate = new Date(date.getTime());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return sqlDate;
+    }
+
+    private Timestamp fbTimeToSQLDate(String fbTimeString) throws Exception{
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssZ");
+        java.util.Date date = dateFormat.parse(fbTimeString);
+        return new Timestamp(date.getTime());
     }
 
 }

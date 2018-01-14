@@ -1,5 +1,6 @@
 package com.cit.productsocial;
 
+import com.cit.productsocial.utils.social.data.UserObject;
 import com.cit.productsocial.utils.social.facebook.FacebookClient;
 import com.cit.productsocial.utils.social.data.CommentObject;
 import com.cit.productsocial.utils.social.data.PostDataObject;
@@ -18,8 +19,13 @@ public class Demo {
         fakeData();
     }
 
-    public void postProductToUserFeed(String pageId) {
+    public UserObject getUser() {
+        return fbClient.getInfoFromToken();
+    }
+
+    public void postProductToUserFeed() {
         /* New data */
+        String pageId = "me";
         System.out.println("Start post to user feed...");
         System.out.println(">>> Result Id of post: " + fbClient.postProducts(pageId, productData));
         System.out.println("End post");

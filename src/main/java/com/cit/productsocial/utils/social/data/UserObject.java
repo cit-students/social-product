@@ -11,7 +11,7 @@ public class UserObject {
     private String email;
     private String firstName;
     private String lastName;
-    private Date birthDate;
+    private Date birthDay;
     private String phoneNumber;
     private String address;
     private String avatarUrl;
